@@ -30,9 +30,9 @@ const QuestionView = (props) => {
     optionTwo: { votes: optionTwoVotes, text: txt2 },
   } = questions[id];
   const { name, avatarURL: avatar } = users[author];
-  const votes = Object.keys(users).length;
   const optionOneVoteNum = optionOneVotes.length;
   const optionTwoVoteNum = optionTwoVotes.length;
+  const votes = optionOneVoteNum + optionTwoVoteNum;
   const optionOnePersent = ((optionOneVoteNum / votes) * 100).toFixed(2);
   const optionTwoPersent = ((optionTwoVoteNum / votes) * 100).toFixed(2);
   const userVoted1 = optionOneVotes.includes(authedUser);

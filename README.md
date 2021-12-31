@@ -121,6 +121,9 @@ _Parameters_: Object that contains the following properties: `authedUser`, `qid`
 
 ## Screenshots
 
+![gif 1](public/assets/images/login.gif)
+![gif 2](public/assets/images/add_poll.gif)
+![gif 3](public/assets/images/vote_poll.gif)
 ![screenshot 1](public/assets/images/screenshot1.png)
 ![screenshot 2](public/assets/images/screenshot2.png)
 ![screenshot 3](public/assets/images/screenshot3.png)
